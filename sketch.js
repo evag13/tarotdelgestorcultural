@@ -23,13 +23,13 @@ function setup() {
 function draw() {
   background(255);
   
-  textSize(8);
+  textSize(12);
   fill (0);
   textFont('Verdana');
-  text('cucurucho', 350, 375);
-  text('2024', 353, 388);
+  text('cucurucho', width/2, height/5);
+  text('2024', width/2+15, height/5+15);
   
-  textSize(12);
+  textSize(30);
   fill(255,0,0);
   textFont('Courier New');
   text(consejoElegido, width / 2, height / 2);
