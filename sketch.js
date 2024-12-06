@@ -26,7 +26,7 @@ function draw() {
   textSize(12);
   fill (0);
   textFont('Verdana');
-  text('cucurucho', width/2, height/5);
+  text('cucurucho', width/2, 980);
   text('2024', width/2+15, height/5+15);
   
   textSize(30);
