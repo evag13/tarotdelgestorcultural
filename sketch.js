@@ -1,7 +1,7 @@
 let consejos = [];
 
 let tempConsejos = []; // Array temporal para manejar las frases sin repetición
-let consejoElegido = "clickea para hacerle una consulta al tarot del gestor cultural";
+let consejoElegido = "clickeá para hacerle una consulta al tarot del gestor cultural";
 
 
 function preload() {
@@ -23,13 +23,13 @@ function setup() {
 function draw() {
   background(255);
   
-  textSize(12);
+  textSize(windowWidth / 90); // Ajustar tamaño del texto dinámicamente
   fill (0);
   textFont('Verdana');
-  text('cucurucho', width/2, 980);
-  text('2024', width/2+15, height/5+15);
+  text('cucurucho', width/2, height - height/8);
+  text('2024', width/2, height - height/10);
   
-  textSize(30);
+  textSize(windowWidth / 50); // Ajustar tamaño del texto dinámicamente
   fill(255,0,0);
   textFont('Courier New');
   text(consejoElegido, width / 2, height / 2);
