@@ -25,7 +25,7 @@ function draw() {
   fill (0);
   textFont('Verdana');
   text('cucurucho', width/2, height - height/8);
-  text('2024', width/2, height - height/10);
+  text('2024', width/2, height - height/11);
   
   textSize(windowWidth / 40); // Ajustar tamaño del texto dinámicamente
   
