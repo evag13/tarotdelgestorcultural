@@ -1,7 +1,7 @@
 let consejos = [];
 
 let tempConsejos = []; // Array temporal para manejar las frases sin repetición
-let consejoElegido = addLineBreakAfter20Chars("clickeá para hacerle una consulta al tarot del gestor cultural");
+let consejoElegido = addLineBreakAfter20Chars("clickeá y hacele una consulta al tarot del gestor cultural");
 
 
 function preload() {
