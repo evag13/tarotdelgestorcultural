@@ -33,7 +33,7 @@ function draw() {
   if (/Android|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i.test(navigator.userAgent)) {
     // Code for mobile devices
     console.log("This is a mobile device.");
-    textSize(40); // Ajustar tamaño del texto dinámicamente
+    textSize(38); // Ajustar tamaño del texto dinámicamente
   } else {
     // Code for non-mobile devices
     textSize(windowWidth / 40); // Ajustar tamaño del texto dinámicamente
