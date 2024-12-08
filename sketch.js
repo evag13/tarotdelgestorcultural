@@ -1,8 +1,7 @@
 let consejos = [];
 
 let tempConsejos = []; // Array temporal para manejar las frases sin repetición
-let consejoElegido = addLineBreakAfter20Chars("clickeá y hacele una consulta al tarot del gestor cultural");
-
+let consejoElegido = ("clickeá y hacele" + '\n' + "una consulta al tarot" + '\n' +  "del gestor cultural") ;
 
 function preload() {
   // Cargar el archivo de texto
@@ -33,7 +32,7 @@ function draw() {
   if (/Android|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i.test(navigator.userAgent)) {
     // Code for mobile devices
     console.log("This is a mobile device.");
-    textSize(38); // Ajustar tamaño del texto dinámicamente
+    textSize(45); // Ajustar tamaño del texto dinámicamente
   } else {
     // Code for non-mobile devices
     textSize(windowWidth / 40); // Ajustar tamaño del texto dinámicamente
